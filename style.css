@@ -1,0 +1,133 @@
+body{
+    background-color:rgb(241, 203, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.contents{
+    width: 675px;
+    height: 60vh;
+    border: 1px white;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: -2px 2px 15px 3px rgb(148, 148, 148);
+    padding: 2px;
+}
+.container{
+    border-radius: 20px;
+    height: 55vh;
+    width: 650px;
+    margin: 15px auto;
+    border: none;
+    display: flex;
+    background-color: rgb(241, 203, 219);
+}
+/* profile pic and logos */
+.profile{
+    border: none;    
+    height: 75%;
+    width:35%;
+    padding: 2px;
+}
+.pic{
+    height: 70%;
+    width: 80%;
+    margin: 5px auto;
+    border: none;
+    border-radius: 50%;
+    padding: 2px;
+}
+#img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 65px;
+    font-size: 24px;
+}
+ /* Details */
+.sec-b{
+    display: block;
+    height: 70%;
+    width: 65%;
+    border: none;
+}
+ .details{
+   display: block;
+   width: 100%;
+   height: 60%;
+   border: none;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ h2{
+    font-family: cursive;
+ }
+ h5{
+    color: gray;
+    font-weight: 700;
+ }
+ .followers-list{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto; 
+ }
+#fla,#flb,#flc{
+    display: flex;
+    border: none;
+    height: 15%;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fla{
+    border-right: 1px solid;
+}
+#flc{
+    border-left: 1px solid;
+}
+ .buttons{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+ button{
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border:none
+ }
+ #ba{
+    background-color: rgb(174, 20, 174);
+    color: white;
+ }
+ #ba:hover{
+    color: white;
+    background-color: #000000;
+ }
+#bb{
+    color: black;
+    background-color: salmon;
+}
+
+
+
